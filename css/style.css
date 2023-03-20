@@ -1,0 +1,15 @@
+.container {
+  max-width: 1138px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: none;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
