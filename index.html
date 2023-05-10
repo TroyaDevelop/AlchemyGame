@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Огород</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <title>Alchemy</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-    <h1>Огород</h1>
-    <script src="./script.js"></script>
+  <div class="game">
+    <div class="elements">
+    <p class="element" data-element-name="Огонь">Огонь</p>
+    <p class="element" data-element-name="Вода">Вода</p>
+    <p class="element" data-element-name="Воздух">Воздух</p>
+    <p class="element" data-element-name="Земля">Земля</p>
+    </div>
+    <div class="alchemy"><span class="elementOne"></span> + <span class="elementTwo"></span> = <span class="equals"></span></div>
+    <button class="submit">Смешать</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
